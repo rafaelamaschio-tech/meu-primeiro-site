@@ -127,7 +127,11 @@ Porém, o que parecia ser apenas uma disputa por sobrevivência logo se transfor
     </body>
 
     <script>const botao = document.querySelector("button");
-    botao.addEventListener("click", botaoClicado);</script>
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado() {
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+         }</script>
 </html>
 
 
